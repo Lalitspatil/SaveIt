@@ -6,6 +6,11 @@ class Assets {
   static const insta = 'assets/home/insta.png';
   static const fb = 'assets/home/fb.png';
   static const whatsapp = 'assets/home/whatsapp.png';
+  static const noImage = 'assets/image.png';
+  static const home = 'assets/bottom/home_icon.png';
+  static const setting = 'assets/bottom/setting_icon.png';
+  static const downloadIcon = 'assets/bottom/download_icon.png';
+
 
   static const profile = 'assets/home/profile.png';
   static const search = 'assets/home/search.png';
@@ -25,7 +30,6 @@ class Assets {
   static const myProfileBanner = 'assets/home/my_profile_banner.png';
   static const note = 'assets/home/note.png';
   static const dealer = 'assets/bottom/dealer.png';
-  static const home = 'assets/bottom/home.png';
   static const orders = 'assets/bottom/orders.png';
   static const products = 'assets/bottom/products.png';
   static const completed = 'assets/dealer/green.png';

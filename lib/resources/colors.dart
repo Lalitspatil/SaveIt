@@ -17,7 +17,6 @@ class CColors {
     return Color.fromRGBO(red, green, blue, 1);
   }
 
-  static const themeBg = Color.fromRGBO(229, 221, 216, 1);
   static const primaryColor = Color.fromRGBO(255, 168, 0, 1);
   static const black = Color.fromRGBO(0, 0, 0, 1);
   static const white = Color.fromRGBO(255, 255, 255, 1);
@@ -27,13 +26,14 @@ class CColors {
   static const yellow = Color.fromRGBO(255, 235, 59, 1); 
   static const lightBluishWhite = Color.fromRGBO(245, 247, 255, 1); 
   static const secondaryText = Color.fromRGBO(92, 92, 92, 1); 
+  static const themeBg = Color(0xFF7E2CF3);
   static Color green1 = hexToRgb('#14441A');
   static Color green2 = hexToRgb('#33913F');
   static Color dullText = hexToRgb('878787');
   static Color textGrey = hexToRgb('656565');
   static Color red = hexToRgb('FF0000');
   static Color lightOrange = hexToRgb('FFF5EF');
-  static Color lightGreen = hexToRgb('F4FBF6');
+  static Color lightGreen = hexToRgb('E6F5EA');
   static Color green = hexToRgb('00b300');
   static Color lightBlue = hexToRgb('F0F3FF');
   static Color lightViolet = hexToRgb('F4EBFF');

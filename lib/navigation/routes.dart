@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:saveit/pages/home/home_view.dart';
+import 'package:saveit/pages/instagram/insta_view.dart';
 import 'package:saveit/pages/splash/splash_view.dart';
 
 
@@ -10,6 +11,7 @@ class Routes {
   
   static const splash = '/splash';
   static const home = '/home';
+  static const insta = '/insta';
 
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     currentRoute = settings.name;
@@ -23,6 +25,12 @@ class Routes {
       case home:
         return PageTransition(
           child: const HomeView(),
+          type: PageTransitionType.fade,
+          settings: settings,);
+
+      case insta:
+        return PageTransition(
+          child: const InstaView(),
           type: PageTransitionType.fade,
           settings: settings,);
 

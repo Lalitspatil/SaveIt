@@ -1,14 +1,17 @@
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
+import 'package:saveit/navigation/navigation_controller.dart';
 import 'package:saveit/pages/home/home_controller.dart';
+import 'package:saveit/pages/instagram/insta_controller.dart';
 import 'package:saveit/resources/base_model.dart';
 
 class Providers{
   static List<SingleChildWidget> providerList = [
        ChangeNotifierProvider(create: (_) => BaseModel()),
-       //ChangeNotifierProvider(create: (_) => NavigationController()),
+       ChangeNotifierProvider(create: (_) => NavigationController()),
       // ChangeNotifierProvider(create: (_) => SplashController()..init('splash')),
        ChangeNotifierProvider(create: (_) => HomeController()..init('home')),
+       ChangeNotifierProvider(create: (_) => InstaController()..init('insta')),
        
   ];
 }

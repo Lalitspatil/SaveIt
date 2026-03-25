@@ -40,7 +40,7 @@ class HowUseCard extends StatelessWidget {
                 children: [
                   TextView(
                     text: '1.',size: FontSizes.s12,
-                    color: CColors.gradientViolet,
+                    color: CColors.themeBg,
                     fontWeight: FontWeight.bold,),
                   SizedBox(width: DeviceWidth.s5,),
                   TextView(
@@ -54,7 +54,7 @@ class HowUseCard extends StatelessWidget {
                 children: [
                   TextView(
                     text: '2.',size: FontSizes.s12,
-                    color: CColors.gradientViolet,
+                    color: CColors.themeBg,
                     fontWeight: FontWeight.bold,),
                     SizedBox(width: DeviceWidth.s5,),
                     TextView(
@@ -68,7 +68,7 @@ class HowUseCard extends StatelessWidget {
                 children: [
                   TextView(
                     text: '3.',size: FontSizes.s12,
-                    color: CColors.gradientViolet,
+                    color: CColors.themeBg,
                     fontWeight: FontWeight.bold,),
                     SizedBox(width: DeviceWidth.s5,),
                     TextView(
