@@ -37,7 +37,26 @@ dependencies:
   flutter_screenutil: ^5.9.3
   provider: ^6.1.5+1
   page_transition: ^2.2.1
-  toastification: ^3.0.3
+  common_widgets: 
+    git:
+      url: git@github.com:Pioneer-growth/common_widgets.git
+      ref: main
+  services: 
+    git:
+      url: git@github.com:Pioneer-growth/services.git
+      ref: main
+  shared_enums:
+    git:
+      url: git@github.com:Pioneer-growth/shared_enums.git
+      ref: main
+  rxdart: ^0.28.0
+  toastification: ^2.3.0
+  http: ^1.6.0
+  dio: ^5.9.2
+  path_provider: ^2.1.5
+  saver_gallery: ^4.1.0
+  permission_handler: ^12.0.1
+  video_player: ^2.10.1
 
 dev_dependencies:
   flutter_test:

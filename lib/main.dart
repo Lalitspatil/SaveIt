@@ -6,10 +6,12 @@ import 'package:saveit/navigation/routes.dart';
 import 'package:saveit/pages/splash/splash_view.dart';
 import 'package:saveit/resources/colors.dart';
 import 'package:saveit/resources/constants.dart';
+import 'package:saveit/services/urls.dart';
 import 'package:toastification/toastification.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
+  Urls.setBaseURL(); 
   // init();
   runApp(
       MultiProvider(providers: Providers.providerList, child: const Splash()));
